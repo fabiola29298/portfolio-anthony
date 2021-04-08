@@ -115,7 +115,7 @@ ul{
   color: #D9376E;
   font-size: 20px;
   line-height: 27px;
-
+  font-weight: bold;
 }
 
 
@@ -126,7 +126,6 @@ ul{
 
 .section-content {
   counter-reset: titleList;
-  margin-top: 164px;
   position: relative;
 }
 .section-content:first-of-type{

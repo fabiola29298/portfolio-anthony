@@ -205,6 +205,10 @@ blockquote span::before{
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  .pink li{
+    display: block;
+  }
+
   /* hero   */
   .hero-content{
     justify-content: flex-end;

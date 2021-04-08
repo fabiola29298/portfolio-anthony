@@ -32,7 +32,9 @@ iconoMenu.addEventListener('click', () => {
     flag = false;
     menuMobile.innerHTML = ``;
     mainMobile.style.display = "block";
-    iconoMenu.src = "./img/icon-menu.svg";
+
+    iconoMenu.textContent = "Menú";
+    iconoMenu.style["color"] = "#FFFFFE";
   }
 
 });

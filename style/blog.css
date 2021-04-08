@@ -271,4 +271,42 @@ blockquote span::before{
 
 
 /* Fin de footer   */
+
+/* menu desplegable  */
+#menu-mobile{
+  /* display: none; */
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  /* background: coral; */
+  background: #0D0D0D;
+  z-index: 2;
+  padding: 16px;
+}
+.content-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 3;
+  margin-block:74px
+}
+.link-menu{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 39px;
+  padding-block-end: 24px;
+  color: #D9376E;
+}
+.content-menu a{
+  text-decoration: none;
+  /* line-height: 48px; */
+  font-weight: bold;
+  font-size: 35px;
+  padding-block-end: 24px;
+  color: #FFFFFE;
+}
+.content-menu a:focus {
+  color: #FFFFFE;
+}
 /* FIN DE BLOG *******   */

@@ -84,6 +84,7 @@ a{
 ul{
   list-style:none;
 }
+
 .list-post li::before{
   content: '- ';
 }
@@ -281,6 +282,15 @@ blockquote span::before{
   }
   .list-post  li::before{
     content: ' ';
+  }
+  .list-post li:hover{
+    color: #D9376E;
+  }
+  a{
+     color: #EFF0F3;
+  }
+  a:hover{
+    color: #D9376E;
   }
   ul{
     list-style:none;
